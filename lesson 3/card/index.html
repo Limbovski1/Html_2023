@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #bg1 {
+            position: absolute;
+            top: 75px;
+            background-color: #003c49;
+            width: 350px;
+            height: 200px;
+        }
+        #bg2 {
+            position: relative;
+            background-color: darkgray;
+            width: 350px;
+            height: 350px;
+        }
+        #button1 {
+            background-color: #003c49;
+            width: 80px;
+            height: 40px;
+            position: absolute;
+            top: 20px;
+            left: 60px;
+            border-radius: 10px;
+        }
+        #button2 {
+            width: 40px;
+            height: 40px;
+            position: absolute;
+            top: 20px;
+            right: 80px;
+        }
+        #button3 {
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            width: 40px;
+            height: 40px;
+        }
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        /* тут я хотів зробити усе приблизно так як я зобразив нижче
+        але я не зміг видати одному елементу відразу і клас і айді
+        по типу <div class="button4", id="1"></div> через це мені прийшлось сильно розтянути код
+        хоча це можна оптимізувати.
+         .button4 {
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            bottom: 50px;
+            background-color: blueviolet;
+            z-index: 1;
+        }
+         #1 {
+         left: 90px;
+         }
+         #2 {
+         left: 150px;
+         }
+         #3 {
+         left: 210px;
+         }
+         */
+        .button4 {
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            bottom: 50px;
+            background-color: blueviolet;
+            z-index: 1;
+            left: 90px;
+            border-radius: 5px;
+        }
+        .button5 {
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            bottom: 50px;
+            background-color: blueviolet;
+            z-index: 1;
+            left: 150px;
+            border-radius: 5px;
+        }
+        .button6 {
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            bottom: 50px;
+            background-color: blueviolet;
+            z-index: 1;
+            left: 210px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+<div id="bg2">
+    <div id="button1"></div>
+    <button id="button2"></button>
+    <button id="button3"></button>
+
+    <div class="button4"></div>
+    <div class="button5"></div>
+    <div class="button6"></div>
+    <div id="bg1">
+
+    </div>
+</div>
+
+
+
+
+
+
+</body>
+</html>
